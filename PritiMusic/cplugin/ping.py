@@ -25,7 +25,7 @@ def get_random_ping_img():
         if isinstance(PING_IMG_URL, list):
             return random.choice(PING_IMG_URL)
         return PING_IMG_URL
-    return "https://telegra.ph/file/2e3d368e77c449c287430.jpg"
+    return "https://d.uguu.se/QmhEjBZF.jpg"
 
 async def get_ping_image(bot_id: int):
     d = await clonebotdb.find_one({"bot_id": bot_id}) or {}
@@ -89,7 +89,7 @@ async def ping_clone(client: Client, message: Message):
             ping_img = raw_ping_img
     
     start = datetime.now()
-    caption_text = f"{bot.mention} is pinging..."
+    caption_text = f"{bot.mention} ɪs ᴘɪɴɢɪɴɢ..."
     
     hmm = None
     
@@ -124,12 +124,12 @@ async def ping_clone(client: Client, message: Message):
     uptime = get_readable_time(upt)
 
     stats_text = (
-        f"➻ Pong: {resp}ms\n\n"
+        f"➻ ᴘᴏɴɢ: {resp}ms\n\n"
         f"{bot.mention} System Stats:\n\n"
-        f"๏ Uptime: {uptime}\n"
-        f"๏ Ram: {mem}%\n"
-        f"๏ Cpu: {cpu}%\n"
-        f"๏ Disk: {disk}%"
+        f"๏ ᴜᴘᴛɪᴍᴇ: {uptime}\n"
+        f"๏ ʀᴀᴍ: {mem}%\n"
+        f"๏ ᴄᴘᴜ: {cpu}%\n"
+        f"๏ ᴅɪsᴋ: {disk}%"
     )
 
     # Edit Message with Stats
@@ -138,7 +138,7 @@ async def ping_clone(client: Client, message: Message):
             caption=stats_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Support", url=C_SUPPORT_CHAT)],
+                    [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=C_SUPPORT_CHAT)],
                 ]
             ),
         )
@@ -147,7 +147,7 @@ async def ping_clone(client: Client, message: Message):
             text=stats_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Support", url=C_SUPPORT_CHAT)],
+                    [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url=C_SUPPORT_CHAT)],
                 ]
             ),
         )
