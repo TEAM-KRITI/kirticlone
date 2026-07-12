@@ -135,7 +135,7 @@ bash start
 ---
 
 <p align="center">
-<a href="https://t.me/The_LuckyX"> <img src="https://img.shields.io/badge/𝐋𝚄𝙲𝙺𝚈 𝐑𝙰𝙹𝙰-darkred?style=for-the-badge&logo=telegram" alt="PritiMusic" /> </a>
+<a href="https://t.me/The_LuckyX"> <img src="https://img.shields.io/badge/Badanm 𝐑𝙰𝙹𝙰-darkred?style=for-the-badge&logo=telegram" alt="PritiMusic" /> </a>
 </p>
 
 ---
